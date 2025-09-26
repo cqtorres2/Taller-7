@@ -15,6 +15,10 @@ public class CuentaBancaria {
         this.saldo = saldo;
     }
 
+    /*Class prueba{
+     * int numeroCuenta = 2222;    * 
+    } */
+
     @Override
     public String toString() {
         return "El estado de la cuenta contiene los siguientes datos. Numero de cuenta: " + numeroCuenta + " Con " + saldo + " de saldo disponible y una cuenta de tipo " + tipoCuenta;
